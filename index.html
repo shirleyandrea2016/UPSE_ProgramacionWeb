@@ -4,8 +4,11 @@
 	<style type="text/css">
 		h1{color: blue;}
 		h2{color: orange;}
+		
 	</style>
 	<title>Mi primera pagina</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
 	<meta charset="UTF8">
 	<meta name_"keywords" content="peluqueria, belleza, estilos">
 	<meta name="description" content="Peluqueria para damas y caballeros recuerda si te ves bien, te sientes bien">
@@ -13,11 +16,12 @@
 </head>
 <body>
 	<header>
-		<a href="index.html">
+		<a href="index.html"  id="logo">
 			<h1>Centro de belleza "Los encantos D' Vivis"</h1>
 			<h2>Te ves bien, te sientes bien</h2>
+			<li><img src="img/banner.jpg" alt="BANNER"></li>
 		</a>
-		<nav>
+		<nav> 
 			<ul>
 				<li><a href="index.html">Galería</a></li>
 				<li><a href="about.html">Acerca</a></li>
@@ -25,25 +29,23 @@
 			</ul>
 		</nav>
 	</header>
+	<div id="wrapper">
 	<section>
-		<li><img src="img/banner.jpg" alt="BANNER"> </li>
 		<li><img src="img/lugar.jpg" alt="LUGAR"></li>
 		<li><img src="img/unas.jpg" alt="UÑAS"></li>
 		<li><img src="img/unas2.jpg" alt="MAS UÑAS"></li>
 		<li><img src="img/peinado.jpg" alt="PEINADOS"></li>
 		<p>La galeria ir aqui</p>
-	</section>
+	</section>  
 	<footer>
-		<li>
 			<a href="https://www.facebook.com/#!/losencantosdevivis/?fref=ts">
 				<img src="img/facebook.png" alt="FACEBOOK DVIVIS">
 			</a>
 			<a href="https://twitter.com/?lang=es">
 				<img src="img/twiter.png" alt="TWITTER DVIVIS">
 			</a>
-		</li>
 			<p>&copy; 2016 Shirley &amp; Andrea</p>
 	</footer>
-
+</div>
 </body>
 </html>
