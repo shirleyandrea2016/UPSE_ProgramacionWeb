@@ -9,6 +9,9 @@ a {
 		padding: 0 5%;
 		background: orange;
 	}
+img{
+	max-width: 100%;
+	}
 /*************
 	HEADING
 *************/ 
@@ -27,7 +30,8 @@ h1{
 	font-family: 'Merriweather', serif;
 	margin: 15px 0;
 	font-size: 1.75em;
-	font-weight: normal;
+	font-weight: normal; /* determina si va en negrita o no*/
+	line-height: 0.8em; /*Interlineado*/
 }
 h2 {
 	font-size:  0.75 em;
@@ -52,6 +56,25 @@ nav a:hover{
 	color: blue;
 }
 
+#galeria{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+
+#galeria li{
+	float: left;
+	width: 45;
+	margin: 2.5%;
+	background-color: orange;
+	color: #bdc3c7;
+}
+#galeria li a p{
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #bdc3c7;
+}
 /*************
  	FOOTER
 **************/
