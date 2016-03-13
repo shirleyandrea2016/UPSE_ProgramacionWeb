@@ -102,4 +102,9 @@ footer{
 	padding-top: 50px;
 	color:  #000000;
 }
+.social-icon{   /*ajustar los iconos de las redes sociales*/
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
 
