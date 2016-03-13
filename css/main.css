@@ -1,3 +1,5 @@
+/*GENERAL*/
+
 a { 
 	text-decoration: none;
 }
@@ -6,21 +8,51 @@ a {
 		margin: 0 auto;
 		padding: 0 5%;
 		background: orange;
-	} 
+	}
+/*************
+	HEADING
+*************/ 
 #logo  {
 	text-align: center;
 	margin: 0;
 }
 header {
-	background: #6ab47b;
+	background: orange;
 	border-color: #599a68;
 }
 h1, h2 {
 	color: #fff;
 }
+h1{
+	font-family: 'Merriweather', serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+}
+h2 {
+	font-size:  0.75 em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+/*************
+NAVIGATION
+**************/
 nav {
-	background: #6db69c;
+	background: orange;
 }
 nav a, nav:visited{
 	color: #fff;
 }
+nav a.selected{
+	color: #32673f;
+}
+
+nav a:hover{
+	color: blue;
+}
+
+/*************
+ 	FOOTER
+**************/
+
