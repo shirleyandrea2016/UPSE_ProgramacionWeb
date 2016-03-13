@@ -20,11 +20,15 @@ img{
 	margin: 0;
 }
 header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
 	background: #ffd0c2;
 	border-color: #599a68;
 }
 h1, h2 {
-	color: #fff;
+	color: #fc3d80;
 }
 h1{
 	font-family: 'Merriweather', serif;
@@ -44,6 +48,7 @@ NAVIGATION
 **************/
 nav {
 	background: #ffd0c2;
+	text-align: center;
 }
 nav a, nav:visited{
 	color: #fff;
@@ -54,6 +59,18 @@ nav a.selected{
 
 nav a:hover{
 	color: blue;
+}
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+nav li{
+	display: inline-block; /*este es para mostrar los elementos en forma horizontal*/
+}
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
 }
 
 #galeria{
