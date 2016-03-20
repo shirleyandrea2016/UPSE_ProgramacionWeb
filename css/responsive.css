@@ -1,3 +1,4 @@
+/***Ejemplo de media Query***/
 /*@media screen and (min-width: 480px)
 {
 	body{
@@ -24,4 +25,35 @@
 		width: 40%;
 		float: right;
 		}	
+/*** Layout de 3 colunmas
+5%*3=15%, 100%-15%=85%, 85%/3=28.333%***/
+	#galeria li { 
+		width: 28.3333%;
+		}	
+/***alinear fotos de servisios en 2 columnas
+#galeria1 li 
+{ 
+		width: 42.5%;
+}*/
+
+/*contrataca a partir del 4 elemento*/
+#galeria li:nth-child(3n+1) 
+{ 
+		clear: left;
+}	
+
+/**/
+.profile-photo { 
+		float: left;
+		margin: 0 5% 120px 0;
+		}
+/***Ajustando la navegación(cuando la página esta ajustada aparece un menú)***/
+nav{
+	background: none;
+	float: right;
+	font-size: 1.125em;
+	margin-right: 5%;
+	text-align: right;
+	width: 45%;
 }
+

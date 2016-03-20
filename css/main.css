@@ -86,6 +86,16 @@ nav a {
 	background-color: orange;
 	color: #bdc3c7;
 }
+
+/*Galeria de imagenes de Servicios*/
+#galeria1 li{
+	float: left;
+	width: 45;
+	margin: 2.5%;
+	background-color: orange;
+	color: #bdc3c7;
+	list-style: none;
+}
 #galeria li a p{
 	margin: 0;
 	padding: 5%;
